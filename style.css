@@ -15,6 +15,8 @@
   --text-light: #ddd;
   --text-muted: #aab2b8;
   --text-white: #ffffff;
+  --text-dark: #151414;
+  --text-darkmuted: #6b6a6a;
 
   /* Effects */
   --shadow-dark: rgba(0, 0, 0, 0.6);
@@ -27,6 +29,12 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 } */
+.text-darker {
+  color: var(--text-dark) !important;
+}
+.text-lessdark {
+  color: var(--text-darkmuted) !important;
+}
 .hero-section {
   background: linear-gradient(
     120deg,
